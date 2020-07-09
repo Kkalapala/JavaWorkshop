@@ -9,7 +9,7 @@ public class example203 {
         int maxSpeed = 65;
         int speedForFine = 70;
 
-        //nested if statements
+        //nested if-else statements
         if (speed <= maxSpeed) {
             System.out.println("Speed is less than or equal to max speed limit.");
 
