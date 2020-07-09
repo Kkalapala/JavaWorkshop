@@ -1,5 +1,7 @@
 package ChapterOne;
 
+//different data types
+
 public class example02 {
     public static void main(String[] args) {
         System.out.println("This is text");
