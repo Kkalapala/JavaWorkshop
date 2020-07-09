@@ -12,7 +12,6 @@ public class example203 {
         //nested if-else statements
         if (speed <= maxSpeed) {
             System.out.println("Speed is less than or equal to max speed limit.");
-
             if (speed < maxSpeed) {
                 System.out.println("Speed is less than max speed limit.");
             }
