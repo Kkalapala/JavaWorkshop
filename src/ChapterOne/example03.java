@@ -1,7 +1,6 @@
 package ChapterOne;
 
 // printing out different data types
-
 public class example03 {
     public static void main(String[] args) {
         String t = "This is text";
