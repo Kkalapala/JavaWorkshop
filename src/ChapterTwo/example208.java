@@ -1,6 +1,6 @@
 package ChapterTwo;
 
-//equals method
+//string equals method: comparing two strings
 
 public class example208 {
     public static void main(String[] args) {
