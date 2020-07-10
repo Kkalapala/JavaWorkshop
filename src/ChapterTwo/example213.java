@@ -8,10 +8,12 @@ public class example213 {
 
         //for loop
         for (String letter : letters) {
+            //jumping to next iteration
             if (letter.equals("A")) {
                 continue;
             }
             System.out.println(letter);
+            //jumping out of loop
             if (letter.equals("C")) {
                 break;
             }
