@@ -1,7 +1,5 @@
 package ChapterTwo;
 
-//run from command line
-
 public class example215 {
     public static void main(String[] args) {
         String[] animals = {"cat", "dog", "wombat"};
