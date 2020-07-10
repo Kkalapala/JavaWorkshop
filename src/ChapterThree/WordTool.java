@@ -41,15 +41,28 @@ public class WordTool {
         return count;
     }
 
+    //to calculate frequency of a symbol
+    public int getFrequency ( String s, char c) {
+        int count = 0;
+
+        //if entry is empty or null, count is 0
+        if ( !(s == null || s.isEmpty()) ) {
+            count = s.length() - s.replace(Character.toString(c), "").length();
+        }
+        return count;
+    }
+
     public static void main(String[] args) {
         WordTool wt = new WordTool();
 
         String text = "The river carried the memories from her childhood.";
+        char search = 'e';
 
         //results
         System.out.println( "Analyzing the text: \n" + text );
         System.out.println( "Total words: " + wt.wordCount(text) );
-        System.out.println( "Total words (w. spaces): " + wt.symbolCount(text, true) );
-        System.out.println( "Total words (wo. spaces) " + wt.symbolCount(text, false) );
+        System.out.println( "Total symbols (w. spaces): " + wt.symbolCount(text, true) );
+        System.out.println( "Total symbols (wo. spaces) " + wt.symbolCount(text, false) );
+        System.out.println( "Total amount of " + search + ": " + wt.getFrequency(text, search));
     }
 }
