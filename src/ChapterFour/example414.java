@@ -17,7 +17,7 @@ public class example414 {
         System.out.println("Before: find 83 at : " + index);
 
         list.remove(index - 1);
-        
+
         System.out.println(list);
         index = list.lastIndexOf(83);
         System.out.println("After: find 83 at : " + index);
