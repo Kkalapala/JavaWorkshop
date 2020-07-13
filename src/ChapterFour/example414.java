@@ -20,7 +20,7 @@ public class example414 {
         list.remove(index - 1);
 
         System.out.println(list);
-        
+
         index = list.lastIndexOf(83);
         System.out.println("After: find 83 at : " + index);
     }
