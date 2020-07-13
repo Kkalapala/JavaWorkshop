@@ -10,7 +10,7 @@ public class example503 {
         List<String> lines = Collections.emptyList();
 
         //provoke an exception
-       // lines = Files.readAllLines(Paths.get("readme.txt")); uncomment this line 
+       // lines = Files.readAllLines(Paths.get("readme.txt")); uncomment this line
 
         //this print will never be seen
         Iterator<String> iterator = lines.iterator();
