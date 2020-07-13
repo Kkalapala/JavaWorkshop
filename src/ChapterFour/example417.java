@@ -14,5 +14,8 @@ public class example417 {
         if (!map.containsKey("byte")) {
             System.out.println("There are no bytes here.");
         }
+
+        System.out.println(map.entrySet());
+        System.out.println(map.keySet());
     }
 }
