@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.nio.file.*;
 import java.util.*;
 
-public class Example802 {
+public class example802 {
     public static void main(String[] args) throws IOException {
         String pathString = System.getProperty("java.io.tmpdir");
 
