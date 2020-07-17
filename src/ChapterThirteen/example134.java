@@ -10,8 +10,10 @@ public class example134 {
         books.add(new ShoppingItem("Java Fundamentals", 100));
         books.add(new ShoppingItem("Java 11 Quick Start", 200));
 
-        List<ShoppingItem> immutableCopy;
-        immutableCopy = List.copyOf(books);
+        List<ShoppingItem> immutableCopy = new ArrayList<>();
+        immutableCopy.add(new ShoppingItem("Java Fundamentals", 100));
+        immutableCopy.add(new ShoppingItem("Java 11 Quick Start", 200));
+
         List<ShoppingItem> unmodifiableCopy = Collections.unmodifiableList(books);
 
         System.out.println(immutableCopy);
