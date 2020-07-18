@@ -1,4 +1,4 @@
-package ChapterFifteen;
+package ChapterFifteen.StreamOperations;
 
 import java.util.OptionalDouble;
 import java.util.stream.*;
