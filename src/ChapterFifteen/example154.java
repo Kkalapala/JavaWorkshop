@@ -16,7 +16,7 @@ public class example154 {
             List<ShoppingArticle3> database = loadDatabaseFile();
 
             System.out.println(database);
-            
+
             System.out.println("Cheapest fruit: " + findCheapestFruit(database));
 
             System.out.println("Most expensive vegetable: " + findMostExpensiveVegetable(database));
