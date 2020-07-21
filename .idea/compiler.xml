@@ -3,6 +3,8 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="Chapter17" target="1.7" />
+      <module name="Chapter17.main" target="1.8" />
+      <module name="Chapter17.test" target="1.8" />
       <module name="Temperatures" target="1.8" />
       <module name="Temperatures.main" target="1.8" />
       <module name="Temperatures.test" target="1.8" />
