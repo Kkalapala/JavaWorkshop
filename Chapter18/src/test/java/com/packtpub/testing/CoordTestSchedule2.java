@@ -9,7 +9,7 @@ import java.util.Date;
 public class CoordTestSchedule2 {
     @Test
     @DisplayName("Frequency must be less than 1440")
-    void testFrequency () {
+    void testFrequency() {
         CoordSchedule schedule = new CoordSchedule(
                 "2020-12-15T15:32Z",
                 "2020-12-30T05:15Z",
