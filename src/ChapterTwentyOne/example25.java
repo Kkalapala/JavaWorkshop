@@ -22,13 +22,14 @@ public class example25 {
         System.gc();
 
         System.runFinalization();
-        
+
         System.out.println("Test results: " + testResults.size());
     }
 
     private static class TestResult {
         Student student;
         TestResult(Student student) {
+
             this.student = student;
         }
     }
