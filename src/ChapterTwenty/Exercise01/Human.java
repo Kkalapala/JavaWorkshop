@@ -91,7 +91,7 @@ public class Human {
             human.flatMap(Human::getGender).ifPresent((String s) ->
                 System.out.print(s));
             // print the EOL
-            
+
             System.out.println();
         }
     }
