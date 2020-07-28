@@ -64,7 +64,7 @@ public class example234 {
 
         int[] result = forkJoinPool.invoke(new ImprovedMergeSort(1, 4, 7, 3,
                 5, 9, 12, 54, 32, 3, 2, 87, 24));
-        
+
         System.out.println(Arrays.toString(result));
     }
 }
